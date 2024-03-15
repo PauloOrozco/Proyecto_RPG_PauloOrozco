@@ -1,6 +1,3 @@
-//
-// Created by Victor Navarro on 15/02/24.
-//
 
 #include "Player.h"
 #include <iostream>
@@ -55,7 +52,9 @@ Character* Player::selectTarget(vector<Enemy*> possibleTargets) {
 Action Player::takeAction(vector<Enemy*> enemies) {
     int action = 0;
     cout << "Select an action: " << endl
-    << "1. Attack" << endl;
+    << "1. Attack" << endl
+    << "2. Defense "<<endl
+    ;
 
     //TODO: Validate input
     cin >> action;
@@ -71,8 +70,17 @@ Action Player::takeAction(vector<Enemy*> enemies) {
             };
             currentAction.speed = getSpeed();
             break;
+        case 2:
+            target = selectTarget(enemies);
+            currentAction.target = target;
+            currentAction.action = [this, target](){
+                doDefense();
+            };
+            currentAction.speed = getSpeed();
+            break;
+
         default:
-            cout << "Invalid action" << endl;
+            cout <<"Invalid action" <<endl;
             break;
     }
 

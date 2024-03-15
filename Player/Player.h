@@ -1,6 +1,4 @@
-//
-// Created by Victor Navarro on 15/02/24.
-//
+
 #pragma once
 #ifndef RPG_PLAYER_H
 #define RPG_PLAYER_H

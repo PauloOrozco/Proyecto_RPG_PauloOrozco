@@ -1,6 +1,3 @@
-//
-// Created by Victor Navarro on 29/02/24.
-//
 
 #include "Action.h"
 

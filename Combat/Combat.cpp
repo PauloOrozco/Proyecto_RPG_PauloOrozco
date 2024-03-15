@@ -1,6 +1,4 @@
-//
-// Created by Victor Navarro on 19/02/24.
-//
+
 
 #include "Combat.h"
 #include <string>

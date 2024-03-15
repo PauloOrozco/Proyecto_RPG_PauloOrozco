@@ -1,7 +1,3 @@
-//
-// Created by Victor Navarro on 15/02/24.
-//
-
 #ifndef RPG_CHARACTER_H
 #define RPG_CHARACTER_H
 #include <string>
@@ -24,13 +20,12 @@ public:
 
     //TODO: Implementar metodo de defensa
     //Incrementar la defensa un 20% solo por el turno actual
-    void defend();
-
+    void doDefense();
     bool flee(Character* target);
     string getName();
     int getHealth();
     int getAttack();
-    int getDefense();
+
     bool getIsPlayer();
     int getSpeed();
     string toString();

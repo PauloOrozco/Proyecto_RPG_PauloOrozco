@@ -1,8 +1,7 @@
-//
-// Created by Victor Navarro on 15/02/24.
-//
 
 #include "Character.h"
+#include "iostream"
+using namespace std;
 Character::Character(string _name, int _health, int _attack, int _defense, int _speed, bool _isPlayer) {
     name = _name;
     health = _health;
@@ -24,8 +23,10 @@ int Character::getAttack() {
     return attack;
 }
 
-int Character::getDefense() {
-    return defense;
+void Character::doDefense() {
+    int incrementaDefensa = defense * 0.20;
+    defense += incrementaDefensa;
+    cout<<name <<" La defensa se incremento un 20% "<<endl;
 }
 
 int Character::getSpeed() {
