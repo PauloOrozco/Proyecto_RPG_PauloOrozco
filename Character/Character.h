@@ -6,14 +6,14 @@ using namespace std;
 
 class Character {
 protected:
-    string name;
+    char name[50];
     int health;
     int attack;
     int defense;
     int speed;
     bool isPlayer;
 public:
-    Character(string _name, int _health, int _attack, int _defense, int _speed, bool _isPlayer);
+    Character(const char _name[], int _health, int _attack, int _defense, int _speed, bool _isPlayer);
 
     virtual void doAttack(Character *target) = 0;
     virtual void takeDamage(int damage) = 0;
@@ -22,7 +22,7 @@ public:
     //Incrementar la defensa un 20% solo por el turno actual
     void doDefense();
     bool flee(Character* target);
-    string getName();
+    char* getName();
     int getHealth();
     int getAttack();
 
@@ -30,6 +30,5 @@ public:
     int getSpeed();
     string toString();
 };
-
 
 #endif //RPG_CHARACTER_H

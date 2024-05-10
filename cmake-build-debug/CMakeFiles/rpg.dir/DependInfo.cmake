@@ -8,16 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/Character/Character.cpp" "CMakeFiles/rpg.dir/Character/Character.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Character/Character.cpp.obj.d"
-  "C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/Combat/Action.cpp" "CMakeFiles/rpg.dir/Combat/Action.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Combat/Action.cpp.obj.d"
-  "C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/Combat/Combat.cpp" "CMakeFiles/rpg.dir/Combat/Combat.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Combat/Combat.cpp.obj.d"
-  "C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/Enemy/Enemy.cpp" "CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj.d"
-  "C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/Player/Player.cpp" "CMakeFiles/rpg.dir/Player/Player.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Player/Player.cpp.obj.d"
-  "C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/main.cpp" "CMakeFiles/rpg.dir/main.cpp.obj" "gcc" "CMakeFiles/rpg.dir/main.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/Character/Character.cpp" "CMakeFiles/rpg.dir/Character/Character.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Character/Character.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/Combat/Action.cpp" "CMakeFiles/rpg.dir/Combat/Action.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Combat/Action.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/Combat/Combat.cpp" "CMakeFiles/rpg.dir/Combat/Combat.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Combat/Combat.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/Enemy/Enemy.cpp" "CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/Files/FileHandler.cpp" "CMakeFiles/rpg.dir/Files/FileHandler.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Files/FileHandler.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/Player/Player.cpp" "CMakeFiles/rpg.dir/Player/Player.cpp.obj" "gcc" "CMakeFiles/rpg.dir/Player/Player.cpp.obj.d"
+  "C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/main.cpp" "CMakeFiles/rpg.dir/main.cpp.obj" "gcc" "CMakeFiles/rpg.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -1,3 +1,3 @@
-C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/cmake-build-debug/CMakeFiles/rpg.dir
-C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Paulo/Desktop/2do/POO/1er/proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/cmake-build-debug/CMakeFiles/rpg.dir
+C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cbeww/CLionProjects/Proyecto_RPG_PauloOrozco/cmake-build-debug/CMakeFiles/rebuild_cache.dir
